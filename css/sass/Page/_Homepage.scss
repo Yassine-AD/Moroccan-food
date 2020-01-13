@@ -1,0 +1,44 @@
+.Title
+{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: #1b262c;
+    color: #FFF ;
+
+    .contactRestau
+    {
+        padding-top: 15px;
+    }
+    ul li 
+    {
+        cursor: pointer;
+        list-style: none;
+        line-height: 1.8;
+        a 
+        {
+            color: #FFF;
+            
+        }
+    }
+
+}
+
+
+// p
+// {
+//     @media #{$XlargeMedia} 
+//     {
+//         color: red;
+//         @include My_prefixer (box-shadow, 10px 10px 10px #CCC, webkit moz o ms);
+//         @include My_prefixer (animation, fadeInOut 2s infinite linear , webkit moz o);
+        
+//     }
+// }
+
+// /*Appel MY_KeyFrame*/
+// @include MYKeyFrame(fadeInOut)
+// {
+//     0% {opacity: .5;}
+//     50% {opacity: .1;}
+//     100% {opacity: .5;}
+// }
